@@ -1,0 +1,65 @@
+.Similars{
+    position: relative;
+    left: 1px;
+    right: 19px;
+    top: 2px;
+    bottom: 84.31px; 
+    gap: 100px; 
+    padding: center;
+    justify-content: space-between;
+    border-bottom: skyblue;
+    
+    display: flex;
+    flex-direction: column;
+    /* background-color:yellowgreen; */
+}
+.img-simi{
+    position: absolute;
+    width: 110px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px 0px 0px 6px; 
+}
+.name-simi{
+    position: absolute;
+width: 70px;
+height: 16px;
+left: 120px;
+top: 3px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+text-transform: capitalize;
+color: #000000;
+}
+.content-simi{
+    position: absolute;
+width: 110px;
+height: 50px;
+left: 120px;
+top: 24px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 450;
+font-size: 10px;
+line-height: 12px;
+padding: 2px;
+text-transform: capitalize;
+color: #000000;
+}
+.view-simi{
+    position: absolute;
+width: 70px;
+height: 20px;
+left: 130px;
+top: 78px;
+font-size: small;
+color: white;
+border-color: transparent;
+background-color: rgb(23, 144, 192);
+border-radius: 3px;
+padding-left: 1px;
+}

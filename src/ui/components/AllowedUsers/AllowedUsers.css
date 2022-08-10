@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.AllowedUser{
+    position: relative;
+    left: -90px;
+    gap: 20px;
+    top: -5%;
+    padding-bottom: 20px;
+}
+.Authorised{
+    position: absolute;
+    height: 50px;
+    width: 190px;
+    
+    gap: 5px;
+    left: 0px;
+    font-size: medium;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:2px 0px 8px rgba(0, 0, 0, 0.522);
+    display: flex;
+    background-color: rgb(232, 250, 248);
+}

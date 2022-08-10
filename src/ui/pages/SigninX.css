@@ -1,0 +1,79 @@
+.html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Lg-1{
+    box-sizing: border-box;
+position: absolute;
+width: 562px;
+height: 100%;
+left: 387px;
+top: 100px;
+flex-direction: column;
+display: flex;
+background: #FFFFFF;
+border: 1px solid #656565;
+border-radius: 16px;
+}
+.Log-head{
+    box-sizing: border-box;
+    position: relative;
+    width: 560px;
+    height: 130px;
+    left: 1px;
+    top: 1px;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #000000;
+    border-radius: 16px 16px 0px 0px;
+}
+.Log-but{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 48px 16px 41px;
+gap: 10px;
+position:relative;
+width: 144px;
+height: 50px;
+justify-content: center;
+left: 200px;
+top: 280px;
+/* background: linear-gradient(89.57deg, rgba(58, 113, 255, 0.43) 0.33%, rgba(181, 113, 249, 0.64) 99.62%); */
+border-radius: 8px;
+background-color: rgb(228, 128, 15);
+}
+#You{
+    position: relative;
+width: 200px;
+height: 26px;
+left: 150px;
+top: 280px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 30;
+font-size: 18px;
+line-height: 27px;
+text-transform: capitalize;
+color: #000000;
+}
+#sign{
+    position: relative;
+width: 179px;
+height: 26px;
+left: 340px;
+top: 254px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 30;
+font-size: 18px;
+line-height: 27px;
+border: transparent;
+text-transform: capitalize;
+color:orangered;
+}

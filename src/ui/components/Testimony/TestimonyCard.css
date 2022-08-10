@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .All-testimony {
+    background: red;
+} */
+.My-testimony{
+    position: relative;
+    height: 30%;
+    width: 150px;
+    top: 15%;
+    left: 55%;
+    font-size: small;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow:2px 0px 8px rgba(0, 0, 0, 0.522);
+    display: flex;
+    background-color: white;
+}
+#testImg{
+    height: 55px;
+}

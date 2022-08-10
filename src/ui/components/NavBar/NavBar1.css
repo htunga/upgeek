@@ -1,0 +1,72 @@
+.html,body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.upper-nav-bar{
+    position: absolute;
+    width: 1336px;
+    height: 77px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.1);
+}
+.upper-logo{
+    position: absolute;
+    width: 151.78px;
+    height: 39px;
+    left: 96px;
+    top: 22px;
+}
+
+.h0{
+    box-sizing: border-box;
+    position: absolute;
+    width: 106px;
+    height: 77px;
+    left: 485px;
+    top: 0px;color: black;
+    background: #FFFFFF;
+    border-bottom: 2px solid #F9AA71;
+}
+.h2{
+    position: absolute;
+    width: 106px;
+    height: 77px;
+    left: 678px;
+    top: 0px;
+    }
+.h3{
+        position: absolute;
+        width: 106px;
+        height: 77px;
+        left: 844px;
+        top: 0px;
+    }
+.Up-login{
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+    position: absolute;
+    width: 106px;
+    height: 48px;
+    left: 1046px;
+    top: 3px;
+    }
+.Sign-Button{
+        width: 106px;
+        border-color: #FD7E14;
+        top: 3px;
+    height: 48px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border-radius: 15%;
+    background-color:white;
+    }

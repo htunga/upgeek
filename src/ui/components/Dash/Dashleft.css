@@ -1,0 +1,74 @@
+.big{
+    position: relative;
+    width: 240px;
+    height: 755px;
+    padding: 9.5px;
+    display: flex;
+    display: inline-block;
+left: 3px;
+right: 65%;
+top: 15px;
+bottom: 90%;
+background-color: white;
+}
+h1{
+    width: 161px;
+height: 24px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+text-transform: capitalize;
+color: black;
+/* Inside auto layout */
+flex: none;
+order: 0;
+}
+h2{
+    width: 51px;
+height: 36px;
+top: 1000px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 36px;
+/* identical to box height, or 257% */
+text-transform: capitalize;
+color: #000000;
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+.mid-left{
+    position: absolute;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px;
+gap: 10px;
+height: 250px;
+left: 10px;
+right: 7px;
+top: 200px;
+bottom: 10px;
+border-radius: 5px;
+/* background-color: aquamarine; */
+}
+.low-left{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 5px;
+gap: 35px;
+height: 260px;
+position: absolute;
+left: 9.09px;
+right: 7px;
+top: 470px;
+bottom: 5px;
+/* background-color: pink; */
+}
