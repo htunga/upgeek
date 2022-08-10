@@ -10,16 +10,41 @@
     display: block;
     /* background-color: yellowgreen; */
     width: 1px;
-    transform: translatex(900px);
+    transform: translatex(919px);
     position: absolute;
 }
 .testimony-card2{
     display: block;
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     width: 5px;
-    transform: translatex(20000px);
-    transform: translatey(-15px);
+    /* transform: translatex(20000px); */
+    transform: translate(900px,170px);
     position: absolute;
+}
+.testimony-card3{
+    display: block;
+    /* background-color: yellowgreen; */
+    width: 5px;
+    /* transform: translatex(20000px); */
+    transform: translate(750px,90px);
+    position: absolute;
+}
+.testimony-card4{
+    display: block;
+    /* background-color: yellowgreen; */
+    width: 5px;
+    /* transform: translatex(20000px); */
+    transform: translate(630px,200px);
+    position: absolute;
+}
+.testimony-card5{
+    display: block;
+    /* background-color: yellowgreen; */
+    width: 5px;
+    /* transform: translatex(20000px); */
+    transform: translate(640px,15px);
+    position: absolute;
+
 }
 .Test-monials{
     position: absolute;

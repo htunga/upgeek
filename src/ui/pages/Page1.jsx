@@ -129,21 +129,27 @@ function Page1() {
                     className='testimony-card'
                     />
                 </div>
+                <div className='testimony-card3'>
                     <TestimonyCard id='two-test'
                     name="Tunga Tunga"
                     image={Firstimg}
                     className='testimony-card'
                     />
+                </div>
+                <div className='testimony-card4'>
                     <TestimonyCard id='three-test'
                     name="Tunga Tunga"
                     image={Firstimg}
                     className='testimony-card'
                     />
+                </div>
+                <div className='testimony-card5'>
                     <TestimonyCard id='four-test'
                     name="Tunga Tunga"
                     image={Firstimg}
                     className='testimony-card'
                     />
+                </div>
             </div>
             </div>
         </div>
