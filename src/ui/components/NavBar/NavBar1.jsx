@@ -8,12 +8,12 @@ function NavBar1() {
     <div className='upper-nav-bar'>
     <img className='upper-logo' src={logo} alt = ''/>
     <Link to='/' ><h1 className='h0'>Home</h1></Link>
-    <Link to ='/Dprofile'><h1 className='h2'>Discover</h1></Link>
+    <div className='h2'><Link to ='/Dprofile' id='Discover'>Discover</Link></div>
     <div className='h3'><h1> FAQ</h1></div>
     <div className='Up-login'><Link to='/Login' id='Login'>Login</Link> 
-    <button className='Sign-Button'>Sign Up</button></div>
+    <button className='Sign-Button'><Link to='/SigninX'>Sign Up</Link></button></div>
     </div>
   )
-}
+  }
 
 export default NavBar1

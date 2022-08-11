@@ -1,9 +1,8 @@
 import React from 'react'
 import Dashleft from '../components/Dash/Dashleft'
 import Dashright from '../components/Dash/Dashright'
+import DashSubnav from '../components/Dash/DashSubnav'
 import Dashtnav from '../components/Dash/Dashtnav'
-
-
 
 import './Dprofile.css'
 
@@ -13,8 +12,8 @@ const Dprofile = () => {
         <Dashtnav/>
         <Dashleft/>
         <Dashright/>
-       
-    </div>
+        <DashSubnav/>
+         </div>
   )
 }
 

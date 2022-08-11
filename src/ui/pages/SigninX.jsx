@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import NavBar1 from '../components/NavBar/NavBar1'
+
 import './SigninX.css'
 
 function SigninX() {
@@ -8,18 +9,31 @@ function SigninX() {
     <div className='SigninX'>
         <NavBar1/>
         <div className='Lg-1'>
-          <div className='Log-head'>Create An Account</div>
-          <div className='Bd'>
+          {/* <img  className='back' src={b}alt='' /> */}
+          <h2 className='Start'>START FOR FREE</h2>
+          <h3 className='Create'>Create a new account</h3>
+          <h1 id='You'>Already have account!</h1>
+        <h1 ><Link to='/Login' id='sign'>Log in</Link></h1>
+          <div className='Names'>
+          <input type='text'className='Fname' placeholder='First Name'required/>
+            <input type='text'className='Oname' placeholder='Other Name'required/>
           </div>
-          <div className='Gnder'>
+          <input type='text' className='Email' placeholder='Email'required/>
+          <h4 id='Birth'>Birthday</h4>
+          <div className='BD'>
+            <div className='Month'>Sept</div>
+            <div className='Date'>12</div>
+            <div className='Year'>2022</div>
           </div>
-          <div className='Category'>
+          <h5 id='Gen'>Gender</h5>
+          <div className='Gender'>
+          <input type= "radio" id="Female" className='Female'placeholder='Female' />
+            <input type= "radio" id="Male" className='Male'placeholder='Male'/>
+            
           </div>
-          <div className='CrtPass'></div>
-        <div className='ConPass'></div>
-        <button className='Log-but'>Next</button>
-        <h1 id='You'>You don't have account</h1>
-        <h1 id='sign'><Link to='/Login'><i>Log in</i></Link></h1>
+          <input type='text' className='CrtPass'required/>
+          <input type='text' className='ConPass'required/>
+        <button className='Log-but'>Create Account</button>
         </div>
     </div>
   )

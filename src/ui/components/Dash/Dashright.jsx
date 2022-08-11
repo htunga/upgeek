@@ -23,17 +23,17 @@ function Dashright() {
         name="medical im"
         content="Condimentum lobortis netus arcu mauris, id amet elementum, euismod. Pellentesque."
         />
-        <Recommend
+        {/* <Recommend
         image={i}
         name="medical im"
         content="Condimentum lobortis netus arcu mauris, id amet elementum, euismod. Pellentesque."
-        />
+        /> */}
       </div>
       <h2>View All</h2>
     </div>
     <div className='Lowerght'>
       <h3>Similar Startups</h3>
-      <div className='Similars'>
+      <div className='Similars'>                   
         <Similar
         image={ii}
         name="medical im"
@@ -44,11 +44,11 @@ function Dashright() {
         name="medical im"
         content="Condimentum lobortis netus arcu mauris, id amet elementum, euismod. Pellentesque."
         />
-         <Similar
+         {/* <Similar
         image={ii}
         name="medical im"
         content="Condimentum lobortis netus arcu mauris, id amet elementum, euismod. Pellentesque."
-        />
+        /> */}
       </div>
       {/* <h2>View All</h2> */}
     </div>

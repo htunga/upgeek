@@ -27,9 +27,9 @@ function Page1() {
     </div>
 
         <div className='First-Content1'>
-    <h>connecting 
-<h4>tech startup</h4>founders
- with the investors</h>
+    <h1 id='Con'>connecting
+<span id= 'tech'>tech startup</span>founders
+ with the investors</h1>
     </div>
     <div className='First-Content2'>
     <h>Join the largest social network of tech startups founder and investors in rwanda</h>
@@ -84,7 +84,7 @@ function Page1() {
         </div>
         <div className='Upgeek-work'>
         <div className='Upgeek-Title'>
-            <h>How<h4>UpGeek</h4>works</h>
+            <h>How<h4 id='up'>UpGeek</h4>works</h>
     </div>
             <card className='Upgeek-work1'>
                 <img id = 'p1'src={light}alt=''/>
